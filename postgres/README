@@ -1,0 +1,5 @@
+1. Configure postgres with config_pg.sh
+
+2. Copy pg_path.sh to /home/gpadmin/workspace/pg-install
+
+3. Follow the commands in pg_command.

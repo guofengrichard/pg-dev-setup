@@ -1,0 +1,6 @@
+1. Configure gpdb with config_gp.sh
+
+2. source /home/gpadmin/workspace/gpdb-install/greenplum_path.sh;
+   source /home/gpadmin/workspace/gpdb/gpAux/gpdemo/gpdemo-env.sh
+
+3. make create-demo-cluster

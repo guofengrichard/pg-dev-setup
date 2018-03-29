@@ -1,0 +1,7 @@
+source /home/gpadmin/workspace/pg-install/pg_path.sh 
+
+pg_ctl -D $PGHOME/data initdb
+
+pg_ctl start -D $PGHOME/data -l $PGHOME/serverlog
+
+pg_ctl stop -D $PGHOME/data -m smart
